@@ -1,0 +1,21 @@
+{
+    "name": "ROS 2 Development Environment",
+    "image": "env-ros2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "ms-iot.vscode-ros"
+            ]
+        }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder}/workspaces,target=/workspaces,type=bind,consistency=cached",
+    "workspaceFolder": "/workspaces",
+    "runArgs": [
+        "--rm",
+        "-it"
+    ],
+    "remoteUser": "root"
+}
