@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=VS Code ROS2
+Icon=/config/.icons/vscode-ros-icon.png
+Exec=code --file-uri /ros2.code-workspace
+Comment=Open ROS2 Workspace in VS Code
+Categories=Development;IDE;
+Terminal=false

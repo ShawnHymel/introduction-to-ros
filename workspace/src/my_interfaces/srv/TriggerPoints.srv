@@ -1,0 +1,6 @@
+# Request
+uint16 num_points
+---
+# Response
+bool success
+geometry_msgs/Point[] points

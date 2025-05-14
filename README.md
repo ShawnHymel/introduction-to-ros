@@ -24,13 +24,13 @@ Run the image:
 Linux/macOS:
 
 ```sh
-docker run --rm -it -e PUID=$(id -u) -e PGID=$(id -g) -p 22002:22 -p 3000:3000 -v "${PWD}/workspaces:/config/workspaces" env-ros2
+docker run --rm -it -e PUID=$(id -u) -e PGID=$(id -g) -p 22002:22 -p 3000:3000 -v "${PWD}/workspace:/config/workspace" env-ros2
 ```
 
 Windows (PowerShell):
 
 ```bat
-docker run --rm -it -e PUID=$(wsl id -u) -e PGID=$(wsl id -g) -p 22002:22 -p 3000:3000 -v "${PWD}\workspaces:/config/workspaces" env-ros2
+docker run --rm -it -e PUID=$(wsl id -u) -e PGID=$(wsl id -g) -p 22002:22 -p 3000:3000 -v "${PWD}\workspace:/config/workspace" env-ros2
 ```
 
 Alternatively, you can run the image in interactive mode by adding the `--entrypoint /bin/bash` argument. This will allow you to skip running the VS Code server in the background.

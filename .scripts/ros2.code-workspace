@@ -1,0 +1,69 @@
+{
+    "folders": [
+        {
+            "name": "/config/workspace",
+            "path": "/config/workspace"
+        },
+        {
+            "name": "/opt/ros/jazzy",
+            "path": "/opt/ros/jazzy"
+        },
+    ],
+    "settings": {
+        "editor.rulers": [80,120],
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "[c]": {
+            "editor.tabSize": 2,
+        },
+        "[cpp]": {
+            "editor.tabSize": 2,
+        },
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash",
+                "args": ["-c", "source /opt/ros/jazzy/setup.bash && exec bash"]
+            }
+        },
+        "terminal.integrated.env.linux": {
+            "PYTHONPATH": "/opt/ros/jazzy/lib/python3.12/site-packages:$PYTHONPATH"
+        },
+        "terminal.integrated.fontFamily": "Consolas",
+        "terminal.integrated.fontSize": 15,
+        "cmake.environment": {
+            "CMAKE_PREFIX_PATH": "/opt/ros/jazzy",
+            "ament_cmake_DIR": "/opt/ros/jazzy/share/ament_cmake/cmake"
+        },
+        "cmake.configureEnvironment": {
+            "CMAKE_PREFIX_PATH": "/opt/ros/jazzy",
+            "ament_cmake_DIR": "/opt/ros/jazzy/share/ament_cmake/cmake"
+        },
+        "cmake.ignoreCMakeListsMissing": true,
+        "workbench.colorTheme": "Visual Studio Dark - C++",
+        "ros.distro": "jazzy",
+        "ros.workspaceFolder": "/config/workspace",
+        "files.associations": {
+            "*.ipp": "cpp",
+            "array": "cpp",
+            "string": "cpp",
+            "string_view": "cpp",
+            "span": "cpp"
+        },
+        "ros.rosSetupScript": "",
+        "python.analysis.extraPaths": [
+            "/opt/ros/jazzy/lib/python3.12/site-packages"
+        ],
+        "python.autoComplete.extraPaths": [
+            "/opt/ros/jazzy/lib/python3.12/site-packages"
+        ]
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-iot.vscode-ros",
+            "ms-python.python",
+            "ms-vscode.hexeditor",
+            "ms-vscode.cpptools-extension-pack"
+        ]
+    }
+}
