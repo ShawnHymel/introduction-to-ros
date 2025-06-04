@@ -13,6 +13,6 @@ __pycache__/
 !.vscode/extensions.json
 
 # colcon/CMake output
-build/
-install/
-log/
+workspace/build/
+workspace/install/
+workspace/log/

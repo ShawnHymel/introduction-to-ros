@@ -1,0 +1,9 @@
+/talkie/publisher_1:
+  ros__parameters:
+    message: "Doing stuff"
+    timer_period: 0.5
+
+/talkie/publisher_2:
+  ros__parameters:
+    message: "Production mode"
+    timer_period: 2.0

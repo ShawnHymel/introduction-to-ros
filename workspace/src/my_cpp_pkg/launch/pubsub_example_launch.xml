@@ -1,0 +1,28 @@
+<launch>
+    <node 
+        pkg="my_cpp_pkg" 
+        exec="publisher_with_params"
+        namespace="talkie"
+        name="publisher"
+    >
+        <param name="message" value="Greetings!" />
+        <param name="timer_period" value="0.5" />
+    </node>
+    <node 
+        pkg="my_py_pkg" 
+        exec="minimal_subscriber"
+        name="subscriber_1"
+    />
+    <node
+        pkg="my_py_pkg"
+        exec="minimal_subscriber"
+        namespace="talkie"
+        name="subscriber_2"
+    />
+    <node
+        pkg="my_py_pkg"
+        exec="minimal_subscriber"
+        namespace="talkie"
+        name="subscriber_3"
+    />
+</launch>

@@ -1,0 +1,10 @@
+talkie:
+  publisher_1:
+    ros__parameters:
+      message: "Greetings!"
+      timer_period: 1.0
+
+  publisher_2:
+    ros__parameters:
+      message: "Debug mode"
+      timer_period: 2.0
