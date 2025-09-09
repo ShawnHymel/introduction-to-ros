@@ -1,10 +1,14 @@
 # Introduction to ROS
 
-This repository holds the development environment and demos used in the Introduction to ROS video series.
+This repository holds the development environment and demos used in the Introduction to ROS video series, which can be found [here](https://www.youtube.com/watch?v=mjrxf8EFSb8&list=PLEBQazB0HUySWueUF2zNyrA8LSX3rDvE7).
+
+<a href="https://www.youtube.com/watch?v=mjrxf8EFSb8&list=PLEBQazB0HUySWueUF2zNyrA8LSX3rDvE7">
+  <img src=".images/intro-to-ros-thumbnail-play.png" alt="Introduction to ROS video series" height="500">
+</a>
 
 ## Getting Started
 
-## Required Software
+### Required Software
 
 Before you start, install the following programs on your computer:
 
