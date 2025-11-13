@@ -45,7 +45,7 @@ With the Docker image built, you have a few options to connect to the developmen
 
 #### Option 1: Connect via Browser
 
-Open a browser and navigate to http://localhost:8800/.
+Open a browser and navigate to http://localhost:3000/.
 
 #### Option 2: VS Code SSH
 
